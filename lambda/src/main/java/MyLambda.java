@@ -1,0 +1,3 @@
+interface MyLambda {
+    void print();
+}
