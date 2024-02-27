@@ -44,5 +44,16 @@ public class Examples {
         System.out.println("example function");
         Supplier<Double> random = () -> Math.random();
         System.out.println(random.get());
+
+
+        //****Functional Interface****//
+        Predicate<Integer> pred = p -> p%2 ==0 ? true:false;
+        System.out.println(pred.test(8));
+
+        BiConsumer<Integer,Integer> bn = (x,y) -> System.out.println(x+y);
+        bn.accept(4,9);
+
+
+
     }
 }

@@ -1,4 +1,4 @@
-package task1;
+package tasks;
 
 import java.util.Arrays;
 import java.util.List;
@@ -12,5 +12,10 @@ public class Task1 {
     public static void findChar(List<String> list){
         list.stream()
                 .forEach(p-> System.out.println(p.length()));
+        System.out.println("*************************************");
+        //or
+        list.stream()
+                .map(String::length)
+                .forEach(System.out::println);
     }
 }

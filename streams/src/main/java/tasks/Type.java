@@ -1,2 +1,5 @@
-package tasks;public enum Type {
+package tasks;
+
+public enum Type {
+    MEAT,FISH,OTHER;
 }
