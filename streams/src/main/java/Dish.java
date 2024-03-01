@@ -1,7 +1,6 @@
-package tasks;
-
 import lombok.Builder;
 import lombok.Data;
+import tasks.Type;
 
 @Data
 @Builder
